@@ -11,7 +11,7 @@ Git Bash
 Github
 Visual Studio Code
 
-Firstly start with creating a GitHub and a repostory afterwards you want to link it to your Git bash. Next Link your Visual Studio Code to the Gitbash. Moving forward you will be able to set everything up within Git Bash such as creating HTML, CSS, and JS files. Git bash will be communicating to both tools making updating everything simple. But you will need to confirm the updates on GitHub for the code to be on the main.
+Firstly start with creating a GitHub and a repository afterwards you want to link it to your Git bash. Next Link your Visual Studio Code to the Gitbash. Moving forward you will be able to set everything up within Git Bash such as creating HTML, CSS, and JS files. Git bash will be communicating to both tools making updating everything simple. But you will need to confirm the updates on GitHub for the code to be on the main.
 
 Coding languages:
 HTML
