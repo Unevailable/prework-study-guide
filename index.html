@@ -1,70 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/style.css">
-    <title>Prework Study Guide</title>
-  </head>
-  <script src="./assets/script.js"></script>
-  <body>
-    <header id="header">
-      <h1>Prework Study Guide</h1>
-      <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
-      <h2>✨ Open the Console to See What's Happening ✨</h2>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css"> <!-- links to the CSS -->
+    <title>Al Amin's Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <section class="header">
+            <h1> Al Amin</h1>
+            <section>
+                <ul>
+                    <li>
+                        <!--links to each section of the page-->
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#Work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact Me</a>
+                    </li>
+                    <li>
+                        <a href="#Resume">Resume</a>
+                    </li>
+                </ul>
+            </section>
+        </section>
     </header>
-    <main>
-      <section class="card" id="html-section">
 
-        <h2>HTML</h2>
+    <!-- Banner -->
+    <section class="banner">
+        <img src="./assets/images/al.JPG" alt="Picture of me (Al Amin)" style=" width: 23.1%; max-witdh: 100px;">
+    </section>
 
-        <ul>
-          <li>The head element contains information about the webpage.</li>
-          <li>The body element represents the visible content shown to the user.</li>
+    <!-- Text on Banner-->
+    <section class="text-banner">
+        <text-banner> Tech is everything </text-banner>
+    </section>
+
+    <!-- about me -->
+    <section class="content">
+        <section id="about-me" class="about-me">
+            <h2>About Me</h2>
+            <p> Hi! My name Is Al Amin, I am Bangladeshi and I am currently attending Temple University. I love playing soccer and lacrosse and I am very interested in space and how the human race will adapt to problems the universe throws at us. My future goal is to somehow get a space-related job through computer science. I am really interested in what lies beyond earth and hope to land a job relating to space with my computer science skills. I also hope that I become a better editor over time as a secondary option if computer science doesn't work out. A couple of my interests are again space I just have this unexplainable interest in space and I am excited about the Artemis mission. I have a passion for lacrosse and soccer and have played on many teams. For both sports, I play a defensive midfielder with an aggressive play style. I am also experienced in making websites and know HTML, CSS, JS, and some Java. On top of this, I have some skills in using Premier Pro and Vegas Pro. I hope to live a comfortable life within the next 15 years. </p>
+        </section>
+
+        <!-- Work -->
+        <section id="Work" class="Work">
+            <h2>Work</h2>
+            
+            <a href="https://unevailable.github.io/TheBirdsOfFreedom/index.html" class="Bangladesh-war">
+                <h3>The Birds Of Freedom
+                    <p>HTML/CSS/JS</p>
+                </h3>
+                
+              </a>
+
+              <a href="https://alanwang13.github.io/Hidden-in-plain-sight/" class="health">
+                <h3>Hidden In Plain Sight
+                    <p>HTML/CSS/JS</p>
+                </h3>
+              </a>
+
+
+              <a href="https://unevailable.github.io/prework-study-guide/" class="pre-work">
+                <h3>Prework Study Guide
+                    <p>HTML/CSS</p>
+                </h3>
+              </a>
+
+        </section>
+    
+
+    <!-- Contact Me -->
+    <section id="contact-me" class="contact-me">
+        <h2>Contact</h2>
+                <ul>
+            <li>
+                <a>(267)235-8525</a>
+            </li>
+            <li>
+                <a href="mailto:al.amin003@hotmail.com">Email</a>
+            </li>
+            <li>
+                <a href="https://github.com/Unevailable" target="_blank">GitHub</a>
+            </li>
         </ul>
-
     </section>
- 
-    <section class="card" id="css-section">
-
-      <h2>CSS</h2>
-
-      <ul>
-        <li>CSS makes your HTML Webpage look more appealing</li>
-        <li>In a way it lets you design how the page looks</li>
-        <li>A margin indicates how much space we want around the outside of an element.</li>
-        <li>A padding indicates how much space we want around the content inside an element.</li>
-      </ul>
- 
     </section>
- 
-    <section class="card" id="git-section">
+</section>
+</body>
 
-      <h2>Git</h2>
-      
-        <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-        </ul>
- 
-    </section>
- 
-    <section class="card" id="javascript-section">
-
-      <h2>JavaScript</h2>
-        
-        <ul>
-          <li>A variable is a named container that allows us to store data in our code.</li>
-          <li>Control flow is the order in which a computer executes code in a script.</li>
-        </ul>
- 
-    </section>
-    </main>
-
-    <footer>
-      <p>I can code!</p>
-    </footer>
-    <script src="./assets/script.js"></script>
-  </body>
 </html>
